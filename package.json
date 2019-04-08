@@ -1,0 +1,25 @@
+{
+  "name": "server-setup",
+  "version": "1.0.0",
+  "description": "Serving with Express and Node.js",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "figlet": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "express"
+  ],
+  "author": "Hess <hessro@oregonstate.edu>",
+  "license": "MIT"
+}
