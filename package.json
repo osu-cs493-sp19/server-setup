@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "figlet": "^1.2.1"
   },
@@ -14,7 +15,8 @@
     "nodemon": "^1.18.11"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon server.js"
   },
   "keywords": [
     "Node",
